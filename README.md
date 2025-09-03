@@ -37,9 +37,7 @@ This approach integrates synthetic biology, AI-guided optimization, and automate
 
 **Installation**
 Clone the repository and install the dependencies:
-*git clone https://github.com/mpetalcorin/AI-Hydrogen-Optimization.git
-cd AI-Hydrogen-Optimization
-pip install -r requirements.txt*
+*git clone https://github.com/mpetalcorin/AI-Driven-Optimization-of-Hydrogen-Production-in-Chlamydomonas-reinhardtii/blob/main/README.md*
 
 **Requirements:**
 numpy, pandas, optuna, matplotlib, seaborn, ipywidgets, plotly
