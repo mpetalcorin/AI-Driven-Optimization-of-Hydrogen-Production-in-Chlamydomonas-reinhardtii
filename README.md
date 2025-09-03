@@ -37,7 +37,7 @@ This approach integrates synthetic biology, AI-guided optimization, and automate
 
 **Installation**
 Clone the repository and install the dependencies:
-*git clone https://github.com/<your-username>/AI-Hydrogen-Optimization.git
+*git clone https://github.com/mpetalcorin/AI-Hydrogen-Optimization.git
 cd AI-Hydrogen-Optimization
 pip install -r requirements.txt*
 
