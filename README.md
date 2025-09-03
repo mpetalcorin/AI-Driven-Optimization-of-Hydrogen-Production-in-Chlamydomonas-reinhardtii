@@ -1,11 +1,16 @@
 # AI-Driven-Optimization-of-Hydrogen-Production-in-Chlamydomonas-reinhardtii
 An Interactive, AI-Powered Dashboard for Sustainable Bioenergy
 
-**Overview**
+**Overview**\
+We are simulating how artificial intelligence (AI) can control automated photobioreactors that grow the green alga Chlamydomonas reinhardtii to produce hydrogen fuel.
+Hydrogen (H₂) is considered the fuel of the future because when you burn it, the only by-product is water, not carbon dioxide (CO₂). But naturally, algae are not very efficient hydrogen producers. Their internal hydrogen-producing enzymes, called [FeFe]-hydrogenases, stop working when there’s too much oxygen, and growth conditions need to be perfect.\
+To overcome these natural limitations, we’re teaching AI to act like a lab scientist. It experiments with thousands of combinations of light, nutrients, oxygen, temperature, and pH and learns the best recipe for maximizing hydrogen yield while keeping the algae healthy.\
+This is a proof-of-concept system that directly demonstrates GBI’s vision — teaching AI the “language of biology” to design and optimize living systems.\
 This repository contains an AI-driven interactive dashboard designed to optimize hydrogen production in the green alga *Chlamydomonas reinhardtii*. Using machine learning, multi-objective optimization, and real-time visualization, this system simulates how an autonomous AI-driven photobioreactor could manage environmental conditions to maximize hydrogen yield while maintaining algal health.
 This proof-of-concept is aligned with the vision of teaching AI the “language of biology” and leveraging synthetic genomics, predictive modeling, and autonomous labs to engineer programmable organelles for bioenergy and biosustainability.
 
 **Features**
+
 1. Interactive AI Dashboard
 	•	Adjust six critical environmental parameters via sliders:
 	•	Light intensity
@@ -28,6 +33,7 @@ This proof-of-concept is aligned with the vision of teaching AI the “language 
 	•	Perfect for demonstrating the AI decision-making process to GBI reviewers and collaborators.
 
 **How It Works**
+
 This dashboard simulates an AI-controlled autonomous photobioreactor:
 	1.	Input: Environmental parameters from sliders.
 	2.	AI Core: Uses Optuna for Bayesian and multi-objective optimization.
@@ -36,13 +42,16 @@ This dashboard simulates an AI-controlled autonomous photobioreactor:
 This approach integrates synthetic biology, AI-guided optimization, and automated lab control, demonstrating the Design-Build-Test-Learn (DBTL) cycle in action.
 
 **Installation**
+
 Clone the repository and install the dependencies:
 *git clone https://github.com/mpetalcorin/AI-Driven-Optimization-of-Hydrogen-Production-in-Chlamydomonas-reinhardtii*
 
 **Requirements:**
+
 numpy, pandas, optuna, matplotlib, seaborn, ipywidgets, plotly
 
 **Steps:**
+
 	1.	Move the sliders to adjust environmental parameters.
 	2.	Watch real-time hydrogen predictions update instantly.
 	3.	Click:
@@ -52,6 +61,7 @@ numpy, pandas, optuna, matplotlib, seaborn, ipywidgets, plotly
 	4.	Explore the 3D interactive Pareto front to visualize AI-discovered solutions.
 
 **Applications**
+
 This platform demonstrates how AI + synthetic biology can transform bioenergy research:
 	•	Hydrogen fuel production: A clean, carbon-free energy source.
 	•	Autonomous lab control: AI-driven optimization of growth conditions.
@@ -59,6 +69,7 @@ This platform demonstrates how AI + synthetic biology can transform bioenergy re
 	•	Climate-resilient biofactories: Deploying optimized algal strains for industrial hydrogen production.
 
 **Roadmap**
+
 	•	Real-time hydrogen prediction dashboard
 	•	Local & global AI optimization
 	•	Multi-objective optimization
@@ -68,5 +79,6 @@ This platform demonstrates how AI + synthetic biology can transform bioenergy re
 	•	Connection to real-world photobioreactor control systems
 
 **References**
+
 	*•	Melis, A., et al. (2000). Sustained photobiological hydrogen gas production upon reversible inactivation of oxygen evolution in the green alga Chlamydomonas reinhardtii. Plant Physiology, 122(1), 127-136.
 	•	Timmis, J. N., et al. (2004). Endosymbiotic gene transfer: organelle genomes forge eukaryotic chromosomes. Nature Reviews Genetics, 5(2), 123-135.*
